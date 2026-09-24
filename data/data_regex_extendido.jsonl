@@ -1,0 +1,275 @@
+{"orig_id": 1, "variante": 1, "pregunta": "¿Me puedes decir cuantas prescripciones hay registradas en total?"}
+{"orig_id": 1, "variante": 2, "pregunta": "Dime cuantas prescripciones hay registradas en total"}
+{"orig_id": 1, "variante": 3, "pregunta": "Necesito saber cuantas prescripciones existen registradas en total"}
+{"orig_id": 1, "variante": 4, "pregunta": "Quiero saber cuantas prescripciones hay documentadas en total"}
+{"orig_id": 1, "variante": 5, "pregunta": "¿Sabrías decirme qué número de prescripciones hay registradas en total?"}
+{"orig_id": 2, "variante": 1, "pregunta": "¿Me puedes decir cuantos pctes con prescripciones hay?"}
+{"orig_id": 2, "variante": 2, "pregunta": "Dime cuantos pacientes con prescripciones hay"}
+{"orig_id": 2, "variante": 3, "pregunta": "Necesito saber cuantos pctes con prescripciones existen"}
+{"orig_id": 2, "variante": 4, "pregunta": "Quiero saber cuantos pctes con prescripciones hay"}
+{"orig_id": 2, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pctes con prescripciones hay?"}
+{"orig_id": 3, "variante": 1, "pregunta": "¿Me puedes decir cuántos diagnósticos de anatomía patológica hay en total, contando todas las muestras?"}
+{"orig_id": 3, "variante": 2, "pregunta": "Dime cuántos diagnósticos de anatomía patológica hay en total, contando todas las muestras"}
+{"orig_id": 3, "variante": 3, "pregunta": "Necesito saber cuántos diagnósticos de anatomía patológica existen en total, contando todas las muestras"}
+{"orig_id": 3, "variante": 4, "pregunta": "Quiero saber cuántos diagnósticos de anatomía patológica hay en total, contando todas las muestras"}
+{"orig_id": 3, "variante": 5, "pregunta": "¿Sabrías decirme qué número de diagnósticos de anatomía patológica hay en total, contando todas las muestras?"}
+{"orig_id": 4, "variante": 1, "pregunta": "¿Me puedes decir cuántos episodios distintos tienen al menos un diagnóstico de Anatomía Patológica?"}
+{"orig_id": 4, "variante": 2, "pregunta": "Dime cuántos episodios distintos tienen al menos un diagnóstico de Anatomía Patológica"}
+{"orig_id": 4, "variante": 3, "pregunta": "Necesito saber cuántos episodios distintos tienen al menos un diagnóstico de Anatomía Patológica"}
+{"orig_id": 4, "variante": 4, "pregunta": "Quiero saber cuántos episodios distintos tienen al menos un diagnóstico de Anatomía Patológica"}
+{"orig_id": 4, "variante": 5, "pregunta": "¿Sabrías decirme qué número de episodios distintos tienen al menos un diagnóstico de Anatomía Patológica?"}
+{"orig_id": 5, "variante": 1, "pregunta": "¿Me puedes decir me desglosas las prescripciones según el ámbito donde se generaron, para ver cuántas hay en cada uno?"}
+{"orig_id": 5, "variante": 2, "pregunta": "Dime me desglosas las prescripciones según el ámbito donde se generaron, para ver cuántas hay en cada uno"}
+{"orig_id": 5, "variante": 3, "pregunta": "Necesito saber me desglosas las prescripciones según el ámbito donde se generaron, para ver cuántas existen en cada uno"}
+{"orig_id": 5, "variante": 4, "pregunta": "Quiero saber me desglosas las prescripciones según el ámbito donde se generaron, para ver cuántas hay en cada uno"}
+{"orig_id": 5, "variante": 5, "pregunta": "¿Sabrías decirme me desglosas las prescripciones según el ámbito donde se generaron, para ver qué número de hay en cada uno?"}
+{"orig_id": 6, "variante": 1, "pregunta": "¿Me puedes decir cuántos pacientes distintos han pasado por la UCI?"}
+{"orig_id": 6, "variante": 2, "pregunta": "Dime cuántos pacientes distintos han pasado por la UCI"}
+{"orig_id": 6, "variante": 3, "pregunta": "Necesito saber cuántos pacientes distintos han pasado por la UCI"}
+{"orig_id": 6, "variante": 4, "pregunta": "Quiero saber cuántos pacientes distintos han pasado por la UCI"}
+{"orig_id": 6, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pacientes distintos han pasado por la UCI?"}
+{"orig_id": 7, "variante": 1, "pregunta": "¿Me puedes decir cuantas cirugias se han empezao desde el 6 de agosto de 2024?"}
+{"orig_id": 7, "variante": 2, "pregunta": "Dime cuantas cirugias se han empezao desde el 6 de agosto de 2024"}
+{"orig_id": 7, "variante": 3, "pregunta": "Necesito saber cuantas cirugias se han empezao desde el 6 de agosto de 2024"}
+{"orig_id": 7, "variante": 4, "pregunta": "Quiero saber cuantas cirugias se han empezao desde el 6 de agosto de 2024"}
+{"orig_id": 7, "variante": 5, "pregunta": "¿Sabrías decirme qué número de cirugias se han empezao desde el 6 de agosto de 2024?"}
+{"orig_id": 8, "variante": 1, "pregunta": "¿Me puedes decir cuantas cirugias han entrado a quirofano? es pa la profilaxis?"}
+{"orig_id": 8, "variante": 2, "pregunta": "Dime cuantas cirugias han entrado a quirofano? es pa la profilaxis"}
+{"orig_id": 8, "variante": 3, "pregunta": "Necesito saber cuantas cirugias han entrado a quirofano? es pa la profilaxis"}
+{"orig_id": 8, "variante": 4, "pregunta": "Quiero saber cuantas cirugias han entrado a quirofano? es pa la profilaxis"}
+{"orig_id": 8, "variante": 5, "pregunta": "¿Sabrías decirme qué número de cirugias han entrado a quirofano? es pa la profilaxis?"}
+{"orig_id": 9, "variante": 1, "pregunta": "¿Me puedes decir cuantos pctes nacidos del 75 en adelante tenemos?"}
+{"orig_id": 9, "variante": 2, "pregunta": "Dime cuantos pacientes nacidos del 75 en adelante tenemos"}
+{"orig_id": 9, "variante": 3, "pregunta": "Necesito saber cuantos pctes nacidos del 75 en adelante hay"}
+{"orig_id": 9, "variante": 4, "pregunta": "Quiero saber cuantos pctes nacidos del 75 en adelante tenemos"}
+{"orig_id": 9, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pctes nacidos del 75 en adelante tenemos?"}
+{"orig_id": 10, "variante": 1, "pregunta": "¿Me puedes decir cuantos pctes nacidos a partir del 19/01/1975 tenemos?"}
+{"orig_id": 10, "variante": 2, "pregunta": "Dime cuantos pacientes nacidos a partir del 19/01/1975 tenemos"}
+{"orig_id": 10, "variante": 3, "pregunta": "Necesito saber cuantos pctes nacidos a partir del 19/01/1975 hay"}
+{"orig_id": 10, "variante": 4, "pregunta": "Quiero saber cuantos pctes nacidos a partir del 19/01/1975 tenemos"}
+{"orig_id": 10, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pctes nacidos a partir del 19/01/1975 tenemos?"}
+{"orig_id": 11, "variante": 1, "pregunta": "¿Me puedes decir cuantos antibiogramas tenemos con vancomicina?"}
+{"orig_id": 11, "variante": 2, "pregunta": "Dime cuantos antibiogramas tenemos con vancomicina"}
+{"orig_id": 11, "variante": 3, "pregunta": "Necesito saber cuantos antibiogramas hay con vancomicina"}
+{"orig_id": 11, "variante": 4, "pregunta": "Quiero saber cuantos antibiogramas tenemos con vancomicina"}
+{"orig_id": 11, "variante": 5, "pregunta": "¿Sabrías decirme qué número de antibiogramas tenemos con vancomicina?"}
+{"orig_id": 12, "variante": 1, "pregunta": "¿Me puedes decir cuantos pctes nacidos desde el 19/01/1975 hay por sexo?"}
+{"orig_id": 12, "variante": 2, "pregunta": "Dime cuantos pacientes nacidos desde el 19/01/1975 hay por sexo"}
+{"orig_id": 12, "variante": 3, "pregunta": "Necesito saber cuantos pctes nacidos desde el 19/01/1975 existen por sexo"}
+{"orig_id": 12, "variante": 4, "pregunta": "Quiero saber cuantos pctes nacidos desde el 19/01/1975 hay por sexo"}
+{"orig_id": 12, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pctes nacidos desde el 19/01/1975 hay por sexo?"}
+{"orig_id": 13, "variante": 1, "pregunta": "¿Me puedes decir qué procedimientos se han hecho en hepatología, nefrología y gastroenterología desde finales de agosto de 2024? Necesito el desglose por tipo.?"}
+{"orig_id": 13, "variante": 2, "pregunta": "Dime qué procedimientos se han hecho en hepatología, nefrología y gastroenterología desde finales de agosto de 2024? Necesito el desglose por tipo."}
+{"orig_id": 13, "variante": 3, "pregunta": "Necesito saber qué procedimientos se han hecho en hepatología, nefrología y gastroenterología desde finales de agosto de 2024? Necesito el desglose por tipo."}
+{"orig_id": 13, "variante": 4, "pregunta": "Quiero saber qué procedimientos se han hecho en hepatología, nefrología y gastroenterología desde finales de agosto de 2024? Necesito el desglose por tipo."}
+{"orig_id": 13, "variante": 5, "pregunta": "¿Sabrías decirme qué procedimientos se han hecho en hepatología, nefrología y gastroenterología desde finales de agosto de 2024? Necesito el desglose por tipo.?"}
+{"orig_id": 14, "variante": 1, "pregunta": "¿Me puedes decir necesito los antibiogramas q tienen vancomicina?"}
+{"orig_id": 14, "variante": 2, "pregunta": "Dime necesito los antibiogramas q tienen vancomicina"}
+{"orig_id": 14, "variante": 3, "pregunta": "Necesito saber necesito los antibiogramas q tienen vancomicina"}
+{"orig_id": 14, "variante": 4, "pregunta": "Quiero saber necesito los antibiogramas q tienen vancomicina"}
+{"orig_id": 14, "variante": 5, "pregunta": "¿Sabrías decirme necesito los antibiogramas q tienen vancomicina?"}
+{"orig_id": 15, "variante": 1, "pregunta": "¿Me puedes decir cuántos episodios tenemos ya clasificados en grupos relacionados por el diagnóstico?"}
+{"orig_id": 15, "variante": 2, "pregunta": "Dime cuántos episodios tenemos ya clasificados en grupos relacionados por el diagnóstico"}
+{"orig_id": 15, "variante": 3, "pregunta": "Necesito saber cuántos episodios hay ya clasificados en grupos relacionados por el diagnóstico"}
+{"orig_id": 15, "variante": 4, "pregunta": "Quiero saber cuántos episodios tenemos ya clasificados en grupos relacionados por el diagnóstico"}
+{"orig_id": 15, "variante": 5, "pregunta": "¿Sabrías decirme qué número de episodios tenemos ya clasificados en grupos relacionados por el diagnóstico?"}
+{"orig_id": 16, "variante": 1, "pregunta": "¿Me puedes decir cuántos pacientes distintos tenemos con un DRG asignado?"}
+{"orig_id": 16, "variante": 2, "pregunta": "Dime cuántos pacientes distintos tenemos con un DRG asignado"}
+{"orig_id": 16, "variante": 3, "pregunta": "Necesito saber cuántos pacientes distintos hay con un DRG asignado"}
+{"orig_id": 16, "variante": 4, "pregunta": "Quiero saber cuántos pacientes distintos tenemos con un DRG asignado"}
+{"orig_id": 16, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pacientes distintos tenemos con un DRG asignado?"}
+{"orig_id": 17, "variante": 1, "pregunta": "¿Me puedes decir cuál es el peso máximo de los grupos relacionados con el diagnóstico?"}
+{"orig_id": 17, "variante": 2, "pregunta": "Dime cuál es el peso máximo de los grupos relacionados con el diagnóstico"}
+{"orig_id": 17, "variante": 3, "pregunta": "Necesito saber cuál es el peso máximo de los grupos relacionados con el diagnóstico"}
+{"orig_id": 17, "variante": 4, "pregunta": "Quiero saber cuál es el peso máximo de los grupos relacionados con el diagnóstico"}
+{"orig_id": 17, "variante": 5, "pregunta": "¿Sabrías decirme cuál es el peso máximo de los grupos relacionados con el diagnóstico?"}
+{"orig_id": 18, "variante": 1, "pregunta": "¿Me puedes decir cuántos pacientes distintos se han operado de apendicitis?"}
+{"orig_id": 18, "variante": 2, "pregunta": "Dime cuántos pacientes distintos se han operado de apendicitis"}
+{"orig_id": 18, "variante": 3, "pregunta": "Necesito saber cuántos pacientes distintos se han operado de apendicitis"}
+{"orig_id": 18, "variante": 4, "pregunta": "Quiero saber cuántos pacientes distintos se han operado de apendicitis"}
+{"orig_id": 18, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pacientes distintos se han operado de apendicitis?"}
+{"orig_id": 19, "variante": 1, "pregunta": "¿Me puedes decir cuál es la hemoglobina glicada más baja que tenemos desde finales de noviembre de 2023?"}
+{"orig_id": 19, "variante": 2, "pregunta": "Dime cuál es la hemoglobina glicada más baja que tenemos desde finales de noviembre de 2023"}
+{"orig_id": 19, "variante": 3, "pregunta": "Necesito saber cuál es la hemoglobina glicada más baja que hay desde finales de noviembre de 2023"}
+{"orig_id": 19, "variante": 4, "pregunta": "Quiero saber cuál es la hemoglobina glicada más baja que tenemos desde finales de noviembre de 2023"}
+{"orig_id": 19, "variante": 5, "pregunta": "¿Sabrías decirme cuál es la hemoglobina glicada más baja que tenemos desde finales de noviembre de 2023?"}
+{"orig_id": 20, "variante": 1, "pregunta": "¿Me puedes decir cuantos problemas de salud hay registraos en total?"}
+{"orig_id": 20, "variante": 2, "pregunta": "Dime cuantos problemas de salud hay registraos en total"}
+{"orig_id": 20, "variante": 3, "pregunta": "Necesito saber cuantos problemas de salud existen registraos en total"}
+{"orig_id": 20, "variante": 4, "pregunta": "Quiero saber cuantos problemas de salud hay registraos en total"}
+{"orig_id": 20, "variante": 5, "pregunta": "¿Sabrías decirme qué número de problemas de salud hay registraos en total?"}
+{"orig_id": 21, "variante": 1, "pregunta": "¿Me puedes decir cuantas apendicectomias se han hecho?"}
+{"orig_id": 21, "variante": 2, "pregunta": "Dime cuantas apendicectomias se han hecho"}
+{"orig_id": 21, "variante": 3, "pregunta": "Necesito saber cuantas apendicectomias se han hecho"}
+{"orig_id": 21, "variante": 4, "pregunta": "Quiero saber cuantas apendicectomias se han hecho"}
+{"orig_id": 21, "variante": 5, "pregunta": "¿Sabrías decirme qué número de apendicectomias se han hecho?"}
+{"orig_id": 22, "variante": 1, "pregunta": "¿Me puedes decir cuantos episodios distintos d pctes con problemas d salud registraos hay?"}
+{"orig_id": 22, "variante": 2, "pregunta": "Dime cuantos episodios distintos d pacientes con problemas d salud registraos hay"}
+{"orig_id": 22, "variante": 3, "pregunta": "Necesito saber cuantos episodios distintos d pctes con problemas d salud registraos existen"}
+{"orig_id": 22, "variante": 4, "pregunta": "Quiero saber cuantos episodios distintos d pctes con problemas d salud registraos hay"}
+{"orig_id": 22, "variante": 5, "pregunta": "¿Sabrías decirme qué número de episodios distintos d pctes con problemas d salud registraos hay?"}
+{"orig_id": 23, "variante": 1, "pregunta": "¿Me puedes decir prescripciones con dosis de 1,6 o menos, cuantas hay?"}
+{"orig_id": 23, "variante": 2, "pregunta": "Dime prescripciones con dosis de 1,6 o menos, cuantas hay"}
+{"orig_id": 23, "variante": 3, "pregunta": "Necesito saber prescripciones con dosis de 1,6 o menos, cuantas existen"}
+{"orig_id": 23, "variante": 4, "pregunta": "Quiero saber prescripciones con dosis de 1,6 o menos, cuantas hay"}
+{"orig_id": 23, "variante": 5, "pregunta": "¿Sabrías decirme prescripciones con dosis de 1,6 o menos, qué número de hay?"}
+{"orig_id": 24, "variante": 1, "pregunta": "¿Me puedes decir cuantas cirugias se han exo entre finales de 2021 y noviembre del 2024?"}
+{"orig_id": 24, "variante": 2, "pregunta": "Dime cuantas cirugias se han exo entre finales de 2021 y noviembre del 2024"}
+{"orig_id": 24, "variante": 3, "pregunta": "Necesito saber cuantas cirugias se han exo entre finales de 2021 y noviembre del 2024"}
+{"orig_id": 24, "variante": 4, "pregunta": "Quiero saber cuantas cirugias se han exo entre finales de 2021 y noviembre del 2024"}
+{"orig_id": 24, "variante": 5, "pregunta": "¿Sabrías decirme qué número de cirugias se han exo entre finales de 2021 y noviembre del 2024?"}
+{"orig_id": 25, "variante": 1, "pregunta": "¿Me puedes decir cuántos pacientes distintos han tenido algún episodio de estancia corta?"}
+{"orig_id": 25, "variante": 2, "pregunta": "Dime cuántos pacientes distintos han tenido algún episodio de estancia corta"}
+{"orig_id": 25, "variante": 3, "pregunta": "Necesito saber cuántos pacientes distintos han tenido algún episodio de estancia corta"}
+{"orig_id": 25, "variante": 4, "pregunta": "Quiero saber cuántos pacientes distintos han tenido algún episodio de estancia corta"}
+{"orig_id": 25, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pacientes distintos han tenido algún episodio de estancia corta?"}
+{"orig_id": 26, "variante": 1, "pregunta": "¿Me puedes decir cuantas prescripciones hay con dosis de 1,6 o menos, desglosadas por pauta de administracion?"}
+{"orig_id": 26, "variante": 2, "pregunta": "Dime cuantas prescripciones hay con dosis de 1,6 o menos, desglosadas por pauta de administracion"}
+{"orig_id": 26, "variante": 3, "pregunta": "Necesito saber cuantas prescripciones existen con dosis de 1,6 o menos, desglosadas por pauta de administracion"}
+{"orig_id": 26, "variante": 4, "pregunta": "Quiero saber cuantas prescripciones hay con dosis de 1,6 o menos, desglosadas por pauta de administracion"}
+{"orig_id": 26, "variante": 5, "pregunta": "¿Sabrías decirme qué número de prescripciones hay con dosis de 1,6 o menos, desglosadas por pauta de administracion?"}
+{"orig_id": 27, "variante": 1, "pregunta": "¿Me puedes decir dosis minima pautada a pctes? de las dosis bajas?"}
+{"orig_id": 27, "variante": 2, "pregunta": "Dime dosis minima pautada a pacientes? de las dosis bajas"}
+{"orig_id": 27, "variante": 3, "pregunta": "Necesito saber dosis minima pautada a pctes? de las dosis bajas"}
+{"orig_id": 27, "variante": 4, "pregunta": "Quiero saber dosis minima pautada a pctes? de las dosis bajas"}
+{"orig_id": 27, "variante": 5, "pregunta": "¿Sabrías decirme dosis minima pautada a pctes? de las dosis bajas?"}
+{"orig_id": 28, "variante": 1, "pregunta": "¿Me puedes decir cuantos pctes tienen pautado algo con dosis d 1.6 o menos?"}
+{"orig_id": 28, "variante": 2, "pregunta": "Dime cuantos pacientes tienen pautado algo con dosis d 1.6 o menos"}
+{"orig_id": 28, "variante": 3, "pregunta": "Necesito saber cuantos pctes tienen pautado algo con dosis d 1.6 o menos"}
+{"orig_id": 28, "variante": 4, "pregunta": "Quiero saber cuantos pctes tienen pautado algo con dosis d 1.6 o menos"}
+{"orig_id": 28, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pctes tienen pautado algo con dosis d 1.6 o menos?"}
+{"orig_id": 29, "variante": 1, "pregunta": "¿Me puedes decir cuantos episodios de urgencias hubo entre finales de abril del 2022 y mediados de enero del 2024?"}
+{"orig_id": 29, "variante": 2, "pregunta": "Dime cuantos episodios de urgencias hubo entre finales de abril del 2022 y mediados de enero del 2024"}
+{"orig_id": 29, "variante": 3, "pregunta": "Necesito saber cuantos episodios de urgencias hubo entre finales de abril del 2022 y mediados de enero del 2024"}
+{"orig_id": 29, "variante": 4, "pregunta": "Quiero saber cuantos episodios de urgencias hubo entre finales de abril del 2022 y mediados de enero del 2024"}
+{"orig_id": 29, "variante": 5, "pregunta": "¿Sabrías decirme qué número de episodios de urgencias hubo entre finales de abril del 2022 y mediados de enero del 2024?"}
+{"orig_id": 30, "variante": 1, "pregunta": "¿Me puedes decir cuantas muestras de anatomia patologica hay en total?"}
+{"orig_id": 30, "variante": 2, "pregunta": "Dime cuantas muestras de anatomia patologica hay en total"}
+{"orig_id": 30, "variante": 3, "pregunta": "Necesito saber cuantas muestras de anatomia patologica existen en total"}
+{"orig_id": 30, "variante": 4, "pregunta": "Quiero saber cuantas muestras de anatomia patologica hay en total"}
+{"orig_id": 30, "variante": 5, "pregunta": "¿Sabrías decirme qué número de muestras de anatomia patologica hay en total?"}
+{"orig_id": 31, "variante": 1, "pregunta": "¿Me puedes decir cuántos profesionales distintos han validado muestras de Anatomía Patológica?"}
+{"orig_id": 31, "variante": 2, "pregunta": "Dime cuántos profesionales distintos han validado muestras de Anatomía Patológica"}
+{"orig_id": 31, "variante": 3, "pregunta": "Necesito saber cuántos profesionales distintos han validado muestras de Anatomía Patológica"}
+{"orig_id": 31, "variante": 4, "pregunta": "Quiero saber cuántos profesionales distintos han validado muestras de Anatomía Patológica"}
+{"orig_id": 31, "variante": 5, "pregunta": "¿Sabrías decirme qué número de profesionales distintos han validado muestras de Anatomía Patológica?"}
+{"orig_id": 32, "variante": 1, "pregunta": "¿Me puedes decir cuántas pruebas de detección de Covid-19 se han hecho en microbiología en total?"}
+{"orig_id": 32, "variante": 2, "pregunta": "Dime cuántas pruebas de detección de Covid-19 se han hecho en microbiología en total"}
+{"orig_id": 32, "variante": 3, "pregunta": "Necesito saber cuántas pruebas de detección de Covid-19 se han hecho en microbiología en total"}
+{"orig_id": 32, "variante": 4, "pregunta": "Quiero saber cuántas pruebas de detección de Covid-19 se han hecho en microbiología en total"}
+{"orig_id": 32, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pruebas de detección de Covid-19 se han hecho en microbiología en total?"}
+{"orig_id": 33, "variante": 1, "pregunta": "¿Me puedes decir a cuántos pacientes distintos se les ha hecho la detección de Covid-19 en microbiología?"}
+{"orig_id": 33, "variante": 2, "pregunta": "Dime a cuántos pacientes distintos se les ha hecho la detección de Covid-19 en microbiología"}
+{"orig_id": 33, "variante": 3, "pregunta": "Necesito saber a cuántos pacientes distintos se les ha hecho la detección de Covid-19 en microbiología"}
+{"orig_id": 33, "variante": 4, "pregunta": "Quiero saber a cuántos pacientes distintos se les ha hecho la detección de Covid-19 en microbiología"}
+{"orig_id": 33, "variante": 5, "pregunta": "¿Sabrías decirme a qué número de pacientes distintos se les ha hecho la detección de Covid-19 en microbiología?"}
+{"orig_id": 34, "variante": 1, "pregunta": "¿Me puedes decir cuantos episodios distintos tienen etiqueta entre finales de enero del 23 y principios de junio del 25?"}
+{"orig_id": 34, "variante": 2, "pregunta": "Dime cuantos episodios distintos tienen etiqueta entre finales de enero del 23 y principios de junio del 25"}
+{"orig_id": 34, "variante": 3, "pregunta": "Necesito saber cuantos episodios distintos tienen etiqueta entre finales de enero del 23 y principios de junio del 25"}
+{"orig_id": 34, "variante": 4, "pregunta": "Quiero saber cuantos episodios distintos tienen etiqueta entre finales de enero del 23 y principios de junio del 25"}
+{"orig_id": 34, "variante": 5, "pregunta": "¿Sabrías decirme qué número de episodios distintos tienen etiqueta entre finales de enero del 23 y principios de junio del 25?"}
+{"orig_id": 35, "variante": 1, "pregunta": "¿Me puedes decir cuántos movimientos ha habido en Neurología?"}
+{"orig_id": 35, "variante": 2, "pregunta": "Dime cuántos movimientos ha habido en Neurología"}
+{"orig_id": 35, "variante": 3, "pregunta": "Necesito saber cuántos movimientos ha habido en Neurología"}
+{"orig_id": 35, "variante": 4, "pregunta": "Quiero saber cuántos movimientos ha habido en Neurología"}
+{"orig_id": 35, "variante": 5, "pregunta": "¿Sabrías decirme qué número de movimientos ha habido en Neurología?"}
+{"orig_id": 36, "variante": 1, "pregunta": "¿Me puedes decir cuál es la dosis que se suele prescribir, así en general? Me vale con la dosis más habitual.?"}
+{"orig_id": 36, "variante": 2, "pregunta": "Dime cuál es la dosis que se suele prescribir, así en general? Me vale con la dosis más habitual."}
+{"orig_id": 36, "variante": 3, "pregunta": "Necesito saber cuál es la dosis que se suele prescribir, así en general? Me vale con la dosis más habitual."}
+{"orig_id": 36, "variante": 4, "pregunta": "Quiero saber cuál es la dosis que se suele prescribir, así en general? Me vale con la dosis más habitual."}
+{"orig_id": 36, "variante": 5, "pregunta": "¿Sabrías decirme cuál es la dosis que se suele prescribir, así en general? Me vale con la dosis más habitual.?"}
+{"orig_id": 37, "variante": 1, "pregunta": "¿Me puedes decir k presentaciones (comprimidos, viales...) y unidades d dosis se usan en los tratos prescritos? pasame el listado?"}
+{"orig_id": 37, "variante": 2, "pregunta": "Dime k presentaciones (comprimidos, viales...) y unidades d dosis se usan en los tratos prescritos? pasame el listado"}
+{"orig_id": 37, "variante": 3, "pregunta": "Necesito saber k presentaciones (comprimidos, viales...) y unidades d dosis se usan en los tratos prescritos? pasame el listado"}
+{"orig_id": 37, "variante": 4, "pregunta": "Quiero saber k presentaciones (comprimidos, viales...) y unidades d dosis se usan en los tratos prescritos? pasame el listado"}
+{"orig_id": 37, "variante": 5, "pregunta": "¿Sabrías decirme k presentaciones (comprimidos, viales...) y unidades d dosis se usan en los tratos prescritos? pasame el listado?"}
+{"orig_id": 38, "variante": 1, "pregunta": "¿Me puedes decir movs de pctes con alta entre marzo 2023 y enero 2026 actualizados desde agosto 2025?"}
+{"orig_id": 38, "variante": 2, "pregunta": "Dime movs de pacientes con alta entre marzo 2023 y enero 2026 actualizados desde agosto 2025"}
+{"orig_id": 38, "variante": 3, "pregunta": "Necesito saber movs de pctes con alta entre marzo 2023 y enero 2026 actualizados desde agosto 2025"}
+{"orig_id": 38, "variante": 4, "pregunta": "Quiero saber movs de pctes con alta entre marzo 2023 y enero 2026 actualizados desde agosto 2025"}
+{"orig_id": 38, "variante": 5, "pregunta": "¿Sabrías decirme movs de pctes con alta entre marzo 2023 y enero 2026 actualizados desde agosto 2025?"}
+{"orig_id": 39, "variante": 1, "pregunta": "¿Me puedes decir necesito el listado de casos de anatomia patologica q haya registraos?"}
+{"orig_id": 39, "variante": 2, "pregunta": "Dime necesito el listado de casos de anatomia patologica q haya registraos"}
+{"orig_id": 39, "variante": 3, "pregunta": "Necesito saber necesito el listado de casos de anatomia patologica q haya registraos"}
+{"orig_id": 39, "variante": 4, "pregunta": "Quiero saber necesito el listado de casos de anatomia patologica q haya registraos"}
+{"orig_id": 39, "variante": 5, "pregunta": "¿Sabrías decirme necesito el listado de casos de anatomia patologica q haya registraos?"}
+{"orig_id": 40, "variante": 1, "pregunta": "¿Me puedes decir cuantos registros hay de observacion?"}
+{"orig_id": 40, "variante": 2, "pregunta": "Dime cuantos registros hay de observacion"}
+{"orig_id": 40, "variante": 3, "pregunta": "Necesito saber cuantos registros existen de observacion"}
+{"orig_id": 40, "variante": 4, "pregunta": "Quiero saber cuantos registros hay de observacion"}
+{"orig_id": 40, "variante": 5, "pregunta": "¿Sabrías decirme qué número de registros hay de observacion?"}
+{"orig_id": 41, "variante": 1, "pregunta": "¿Me puedes decir cuantas altas a domicilio con HAH hubo entre mayo de 2022 y marzo de 2025?"}
+{"orig_id": 41, "variante": 2, "pregunta": "Dime cuantas altas a domicilio con HAH hubo entre mayo de 2022 y marzo de 2025"}
+{"orig_id": 41, "variante": 3, "pregunta": "Necesito saber cuantas altas a domicilio con HAH hubo entre mayo de 2022 y marzo de 2025"}
+{"orig_id": 41, "variante": 4, "pregunta": "Quiero saber cuantas altas a domicilio con HAH hubo entre mayo de 2022 y marzo de 2025"}
+{"orig_id": 41, "variante": 5, "pregunta": "¿Sabrías decirme qué número de altas a domicilio con HAH hubo entre mayo de 2022 y marzo de 2025?"}
+{"orig_id": 42, "variante": 1, "pregunta": "¿Me puedes decir me pasas los pacientes que han tenido alta a domicilio con HAH?"}
+{"orig_id": 42, "variante": 2, "pregunta": "Dime me pasas los pacientes que han tenido alta a domicilio con HAH"}
+{"orig_id": 42, "variante": 3, "pregunta": "Necesito saber me pasas los pacientes que han tenido alta a domicilio con HAH"}
+{"orig_id": 42, "variante": 4, "pregunta": "Quiero saber me pasas los pacientes que han tenido alta a domicilio con HAH"}
+{"orig_id": 42, "variante": 5, "pregunta": "¿Sabrías decirme me pasas los pacientes que han tenido alta a domicilio con HAH?"}
+{"orig_id": 43, "variante": 1, "pregunta": "¿Me puedes decir cuantos niveles asistenciales distintos en movs con altas entre 2023 y 2026?"}
+{"orig_id": 43, "variante": 2, "pregunta": "Dime cuantos niveles asistenciales distintos en movs con altas entre 2023 y 2026"}
+{"orig_id": 43, "variante": 3, "pregunta": "Necesito saber cuantos niveles asistenciales distintos en movs con altas entre 2023 y 2026"}
+{"orig_id": 43, "variante": 4, "pregunta": "Quiero saber cuantos niveles asistenciales distintos en movs con altas entre 2023 y 2026"}
+{"orig_id": 43, "variante": 5, "pregunta": "¿Sabrías decirme qué número de niveles asistenciales distintos en movs con altas entre 2023 y 2026?"}
+{"orig_id": 44, "variante": 1, "pregunta": "¿Me puedes decir qué constantes vitales se registran en observación y cuántas veces se ha medido cada una?"}
+{"orig_id": 44, "variante": 2, "pregunta": "Dime qué constantes vitales se registran en observación y cuántas veces se ha medido cada una"}
+{"orig_id": 44, "variante": 3, "pregunta": "Necesito saber qué constantes vitales se registran en observación y cuántas veces se ha medido cada una"}
+{"orig_id": 44, "variante": 4, "pregunta": "Quiero saber qué constantes vitales se registran en observación y cuántas veces se ha medido cada una"}
+{"orig_id": 44, "variante": 5, "pregunta": "¿Sabrías decirme qué constantes vitales se registran en observación y qué número de veces se ha medido cada una?"}
+{"orig_id": 45, "variante": 1, "pregunta": "¿Me puedes decir valor maximo registrado en observacion?"}
+{"orig_id": 45, "variante": 2, "pregunta": "Dime valor maximo registrado en observacion"}
+{"orig_id": 45, "variante": 3, "pregunta": "Necesito saber valor maximo registrado en observacion"}
+{"orig_id": 45, "variante": 4, "pregunta": "Quiero saber valor maximo registrado en observacion"}
+{"orig_id": 45, "variante": 5, "pregunta": "¿Sabrías decirme valor maximo registrado en observacion?"}
+{"orig_id": 46, "variante": 1, "pregunta": "¿Me puedes decir cuantos pacientes distintos tenemos con un diagnóstico de diabetes registrado?"}
+{"orig_id": 46, "variante": 2, "pregunta": "Dime cuantos pacientes distintos tenemos con un diagnóstico de diabetes registrado"}
+{"orig_id": 46, "variante": 3, "pregunta": "Necesito saber cuantos pacientes distintos hay con un diagnóstico de diabetes registrado"}
+{"orig_id": 46, "variante": 4, "pregunta": "Quiero saber cuantos pacientes distintos tenemos con un diagnóstico de diabetes registrado"}
+{"orig_id": 46, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pacientes distintos tenemos con un diagnóstico de diabetes registrado?"}
+{"orig_id": 47, "variante": 1, "pregunta": "¿Me puedes decir cuántas visitas a urgencias hubo en el último trimestre de 2024?"}
+{"orig_id": 47, "variante": 2, "pregunta": "Dime cuántas visitas a urgencias hubo en el último trimestre de 2024"}
+{"orig_id": 47, "variante": 3, "pregunta": "Necesito saber cuántas visitas a urgencias hubo en el último trimestre de 2024"}
+{"orig_id": 47, "variante": 4, "pregunta": "Quiero saber cuántas visitas a urgencias hubo en el último trimestre de 2024"}
+{"orig_id": 47, "variante": 5, "pregunta": "¿Sabrías decirme qué número de visitas a urgencias hubo en el último trimestre de 2024?"}
+{"orig_id": 48, "variante": 1, "pregunta": "¿Me puedes decir dame el número de ingresos hospitalarios por mes durante 2025?"}
+{"orig_id": 48, "variante": 2, "pregunta": "Dime dame el número de ingresos hospitalarios por mes durante 2025"}
+{"orig_id": 48, "variante": 3, "pregunta": "Necesito saber dame el número de ingresos hospitalarios por mes durante 2025"}
+{"orig_id": 48, "variante": 4, "pregunta": "Quiero saber dame el número de ingresos hospitalarios por mes durante 2025"}
+{"orig_id": 48, "variante": 5, "pregunta": "¿Sabrías decirme dame el número de ingresos hospitalarios por mes durante 2025?"}
+{"orig_id": 49, "variante": 1, "pregunta": "¿Me puedes decir cuántas pruebas de laboratorio de hemoglobina se han pedido en el último año?"}
+{"orig_id": 49, "variante": 2, "pregunta": "Dime cuántas pruebas de laboratorio de hemoglobina se han pedido en el último año"}
+{"orig_id": 49, "variante": 3, "pregunta": "Necesito saber cuántas pruebas de laboratorio de hemoglobina se han pedido en el último año"}
+{"orig_id": 49, "variante": 4, "pregunta": "Quiero saber cuántas pruebas de laboratorio de hemoglobina se han pedido en el último año"}
+{"orig_id": 49, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pruebas de laboratorio de hemoglobina se han pedido en el último año?"}
+{"orig_id": 50, "variante": 1, "pregunta": "¿Me puedes decir cuantos pacientes tienen alergias medicamentosas registradas?"}
+{"orig_id": 50, "variante": 2, "pregunta": "Dime cuantos pacientes tienen alergias medicamentosas registradas"}
+{"orig_id": 50, "variante": 3, "pregunta": "Necesito saber cuantos pacientes tienen alergias medicamentosas registradas"}
+{"orig_id": 50, "variante": 4, "pregunta": "Quiero saber cuantos pacientes tienen alergias medicamentosas documentadas"}
+{"orig_id": 50, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pacientes tienen alergias medicamentosas registradas?"}
+{"orig_id": 51, "variante": 1, "pregunta": "¿Me puedes decir cuál es el número de intervenciones quirúrgicas por servicio desde enero de 2025?"}
+{"orig_id": 51, "variante": 2, "pregunta": "Dime cuál es el número de intervenciones quirúrgicas por servicio desde enero de 2025"}
+{"orig_id": 51, "variante": 3, "pregunta": "Necesito saber cuál es el número de intervenciones quirúrgicas por servicio desde enero de 2025"}
+{"orig_id": 51, "variante": 4, "pregunta": "Quiero saber cuál es el número de intervenciones quirúrgicas por servicio desde enero de 2025"}
+{"orig_id": 51, "variante": 5, "pregunta": "¿Sabrías decirme cuál es el número de intervenciones quirúrgicas por servicio desde enero de 2025?"}
+{"orig_id": 52, "variante": 1, "pregunta": "¿Me puedes decir dime cuántas hospitalizaciones a domicilio con perfusiones de dosis alta hay activas?"}
+{"orig_id": 52, "variante": 2, "pregunta": "Dime dime cuántas hospitalizaciones a domicilio con perfusiones de dosis alta hay activas"}
+{"orig_id": 52, "variante": 3, "pregunta": "Necesito saber dime cuántas hospitalizaciones a domicilio con perfusiones de dosis alta existen activas"}
+{"orig_id": 52, "variante": 4, "pregunta": "Quiero saber dime cuántas hospitalizaciones a domicilio con perfusiones de dosis alta hay activas"}
+{"orig_id": 52, "variante": 5, "pregunta": "¿Sabrías decirme dime qué número de hospitalizaciones a domicilio con perfusiones de dosis alta hay activas?"}
+{"orig_id": 53, "variante": 1, "pregunta": "¿Me puedes decir cuántos episodios tienen al menos una prescripción de anticoagulantes?"}
+{"orig_id": 53, "variante": 2, "pregunta": "Dime cuántos episodios tienen al menos una prescripción de anticoagulantes"}
+{"orig_id": 53, "variante": 3, "pregunta": "Necesito saber cuántos episodios tienen al menos una prescripción de anticoagulantes"}
+{"orig_id": 53, "variante": 4, "pregunta": "Quiero saber cuántos episodios tienen al menos una prescripción de anticoagulantes"}
+{"orig_id": 53, "variante": 5, "pregunta": "¿Sabrías decirme qué número de episodios tienen al menos una prescripción de anticoagulantes?"}
+{"orig_id": 54, "variante": 1, "pregunta": "¿Me puedes decir cuantas vacunas de la gripe se han administrado en la campaña 2024-2025?"}
+{"orig_id": 54, "variante": 2, "pregunta": "Dime cuantas vacunas de la gripe se han administrado en la campaña 2024-2025"}
+{"orig_id": 54, "variante": 3, "pregunta": "Necesito saber cuantas vacunas de la gripe se han administrado en la campaña 2024-2025"}
+{"orig_id": 54, "variante": 4, "pregunta": "Quiero saber cuantas vacunas de la gripe se han administrado en la campaña 2024-2025"}
+{"orig_id": 54, "variante": 5, "pregunta": "¿Sabrías decirme qué número de vacunas de la gripe se han administrado en la campaña 2024-2025?"}
+{"orig_id": 55, "variante": 1, "pregunta": "¿Me puedes decir qué número de pacientes tienen una tensión arterial sistólica mayor de 140 en sus últimas constantes?"}
+{"orig_id": 55, "variante": 2, "pregunta": "Dime qué número de pacientes tienen una tensión arterial sistólica mayor de 140 en sus últimas constantes"}
+{"orig_id": 55, "variante": 3, "pregunta": "Necesito saber qué número de pacientes tienen una tensión arterial sistólica mayor de 140 en sus últimas constantes"}
+{"orig_id": 55, "variante": 4, "pregunta": "Quiero saber qué número de pacientes tienen una tensión arterial sistólica mayor de 140 en sus últimas constantes"}
+{"orig_id": 55, "variante": 5, "pregunta": "¿Sabrías decirme qué número de pacientes tienen una tensión arterial sistólica mayor de 140 en sus últimas constantes?"}

@@ -1,0 +1,3 @@
+model,n_total,n_ok,n_error,input_tokens_mean,input_tokens_median,output_tokens_mean,output_tokens_median,thinking_tokens_mean,thinking_tokens_median,text_tokens_mean,time_s_mean,time_s_median,time_s_max,total_output_tokens
+claude-opus-5-5,275,275,0,88.88,88,718.76,701,163.92,114,554.83,7.819,7.581,16.606,197658
+claude-opus-5,275,275,0,86.88,86,707.83,667,174.08,143,533.75,11.077,10.445,33.075,194654

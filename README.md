@@ -28,12 +28,26 @@ Por cada pregunta clínica se registra:
 
 ```
 prueba_claude/
-├── data.jsonl               # 175 preguntas (35 × 5 variaciones)
-├── benchmark_claude.py               # lanza el benchmark en paralelo
-├── generar_variaciones.py            # genera 5 reformulaciones por pregunta
-├── analisis_significancia.py         # test pareado de significancia
-├── resultados_tokenizacion.csv  # 350 filas (175 preguntas)
-└── resumen_tokenizacion.csv     # agregado por modelo (ampliado)
+├── data/
+│   ├── data_original.jsonl           # 35 preguntas clínicas originales
+│   ├── data.jsonl                    # 175 variantes generadas con Haiku (LLM)
+│   ├── data_regex.jsonl              # 175 variantes generadas con regex
+│   └── data_regex_extendido.jsonl    # 275 (las 175 + 100 más: benchmark ES + propias)
+├── results/
+│   ├── resultados_tokenizacion.csv                  # 350 filas (Haiku)
+│   ├── resultados_tokenizacion_regex.csv            # 350 filas (regex)
+│   ├── resultados_tokenizacion_regex_extendido.csv  # 550 filas (regex +100)
+│   └── resumen_tokenizacion*.csv                    # agregados por modelo
+├── scripts/
+│   ├── benchmark_claude.py            # lanza el benchmark en paralelo
+│   ├── generar_variaciones.py         # variaciones con Haiku (LLM)
+│   ├── generar_variaciones_regex.py   # variaciones con regex
+│   ├── extender_regex.py              # añade 100 variantes regex más
+│   ├── analisis_significancia.py      # test pareado de significancia
+│   └── calcular_coste.py              # coste en $ por modelo
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
 
 ## Requisitos
@@ -51,29 +65,41 @@ pip install anthropic python-dotenv scipy
 
 ## Uso
 
-### 1. Benchmark (35 preguntas originales)
+Los scripts están en `scripts/` y los datos en `data/`. Ejecuta desde la raíz del proyecto.
+
+### 1. Generar variaciones (dos métodos)
 
 ```bash
-.venv/bin/python benchmark_claude.py
+# Con Haiku (LLM): 35 -> 175
+python scripts/generar_variaciones.py --input data/data_original.jsonl --out data/data.jsonl
+
+# Con regex (sin LLM): 35 -> 175
+python scripts/generar_variaciones_regex.py
+
+# Ampliar el dataset regex con 100 variantes más (benchmark español + propias)
+python scripts/extender_regex.py
 ```
 
-Salidas: `resultados_tokenizacion.csv` y `resumen_tokenizacion.csv`.
-
-### 2. Generar variaciones y benchmark ampliado (175 preguntas)
+### 2. Lanzar el benchmark
 
 ```bash
-.venv/bin/python generar_variaciones.py
-.venv/bin/python benchmark_claude.py \
-    --input data.jsonl \
+python scripts/benchmark_claude.py \
+    --input data/data_regex_extendido.jsonl \
     --max-questions 1000 \
-    --out resultados_tokenizacion.csv \
-    --summary-out resumen_tokenizacion_ampliado.csv
+    --out results/resultados_tokenizacion_regex_extendido.csv \
+    --summary-out results/resumen_tokenizacion_regex_extendido.csv
 ```
 
 ### 3. Análisis de significancia
 
 ```bash
-.venv/bin/python analisis_significancia.py --csv resultados_tokenizacion_ampliado.csv
+python scripts/analisis_significancia.py --csv results/resultados_tokenizacion_regex_extendido.csv
+```
+
+### 4. Coste en dólares
+
+```bash
+python scripts/calcular_coste.py
 ```
 
 ## Opciones del benchmark
@@ -81,14 +107,16 @@ Salidas: `resultados_tokenizacion.csv` y `resumen_tokenizacion.csv`.
 | Flag | Por defecto | Descripción |
 |---|---|---|
 | `--models` | `claude-opus-5-5,claude-opus-5` | Modelos a comparar (separados por coma) |
-| `--input` | `data_shard01.jsonl` | JSONL de entrada (campo `pregunta`) |
+| `--input` | — | JSONL de entrada (campo `pregunta`); pasa ruta explícita |
 | `--max-questions` | `100` | Máximo de preguntas a procesar |
 | `--concurrency` | `8` | Peticiones concurrentes |
 | `--thinking` / `--no-thinking` | activado | Modo razonamiento |
 | `--effort` | `high` | `low`, `medium`, `high`, `xhigh`, `max` |
 | `--max-tokens` | `8192` | Límite de tokens de salida |
-| `--out` | `resultados_tokenizacion.csv` | CSV por petición |
-| `--summary-out` | `resumen_tokenizacion.csv` | CSV de resumen |
+| `--out` | — | CSV por petición |
+| `--summary-out` | — | CSV de resumen |
+
+> Algunos defaults de rutas de los scripts apuntan al layout antiguo; pásalas siempre explícitas.
 
 ## Notas técnicas
 
@@ -99,25 +127,49 @@ Salidas: `resultados_tokenizacion.csv` y `resumen_tokenizacion.csv`.
 - `temperature` no está disponible en esta versión de la API.
 - El `input_tokens` difiere en 2 tokens constantes entre modelos (tokenizadores distintos) con la misma entrada.
 
-## Resultados (175 preguntas, 350 peticiones, 0 errores)
+## Resultados
 
-| Modelo | in (media) | out (media) | thinking (media) | text (media) | tiempo (media) | out total |
-|---|---|---|---|---|---|---|
-| `claude-opus-5-5` | 88.8 | 638.6 | 153.3 | 485.2 | 7.12 s | 111 750 |
-| `claude-opus-5` | 86.8 | 635.5 | 175.6 | 459.9 | 10.06 s | 111 211 |
+Se compararon dos métodos de variación y un dataset ampliado:
 
-### Significancia (test pareado, n=175)
+| Prueba | n (preguntas) | Variantes | Peticiones |
+|---|---|---|---|
+| 1. Haiku | 175 | generadas con LLM | 350 |
+| 2. Regex | 175 | generadas con regex | 350 |
+| 3. Regex +100 | 275 | regex + benchmark ES + propias | 550 |
 
-| Métrica | Dif. media (5.5 − 5) | Wilcoxon p | Cohen's d | Veredicto |
-|---|---|---|---|---|
-| `output_tokens` | +3.1 | 0.61 | +0.02 | No significativo |
-| `thinking_tokens` | −22.3 | 1.0e−6 | −0.19 | Significativo |
-| `text_tokens` | +25.4 | 0.0025 | +0.17 | Significativo |
-| `time_s` | −2.9 s | 8.2e−28 | −1.02 | Significativo |
+### Diferencia en `output_tokens` (5.5 − 5) por prueba
+
+| Prueba | n | Dif. media | Wilcoxon p | Cohen's d | ¿Significativo? |
+|---|---|---|---|---|---|
+| Haiku | 175 | +3.1 | 0.61 | +0.02 | No |
+| Regex | 175 | +24.4 | 0.073 | +0.14 | No (cerca) |
+| Regex +100 | 275 | +10.9 | 0.18 | +0.05 | No |
+
+En las tres pruebas **no hay diferencia estadísticamente significativa en tokens
+de salida totales**. Lo que sí se mantiene significativo en todas: Opus 5.5 razona
+menos (`thinking_tokens`) y escribe más (`text_tokens`), efectos que se compensan,
+y es ~30% más rápido.
+
+### Medias de la prueba final (n=275)
+
+| Modelo | in (media) | out (media) | thinking (media) | text (media) | tiempo (media) |
+|---|---|---|---|---|---|
+| `claude-opus-5-5` | 88.9 | 718.8 | 163.9 | 554.8 | 7.8 s |
+| `claude-opus-5` | 86.9 | 707.8 | 174.1 | 533.8 | 11.1 s |
+
+### Coste (precios: Opus 5 = $5/M in, $25/M out; Opus 5.5 = $4/M in, $20/M out)
+
+| Prueba | Opus 5.5 | Opus 5 |
+|---|---|---|
+| Haiku | $2.30 | $2.86 |
+| Regex | $2.52 | $3.04 |
+| Regex +100 | $4.05 | $4.99 |
+| **Total 3 pruebas** | **$8.87** | **$10.88** |
+| Media por petición | $0.0142 | $0.0174 |
 
 ## Conclusión
 
-- **En coste de salida (`output_tokens`): no hay diferencia estadísticamente significativa** entre Opus 5.5 y Opus 5 (≈ +3 tokens, IC 95% cruza el cero).
-- Opus 5.5 razona menos (thinking −22) pero escribe más (text +25); ambos efectos se compensan en el total.
-- La única diferencia operativa clara es la **velocidad**: Opus 5.5 es ~30% más rápido.
-- Ojo: con solo 35 preguntas la diferencia de salida parecía significativa (+64 tokens, p≈0.005); al ampliar a 175 muestras desapareció. Era ruido muestral.
+- **En tokens de salida totales (`output_tokens`): Opus 5.5 y Opus 5 son equivalentes** (sin diferencia significativa en ninguna de las 3 pruebas).
+- **En coste: Opus 5 es ~23% más caro** ($10.88 vs $8.87 en total). Aunque Opus 5.5 genera un poco más de tokens, es un 20% más barato por token y sale ganando.
+- **En velocidad: Opus 5.5 es ~30% más rápido** (−3.3 s de media).
+- El método de generación de variaciones (LLM vs regex) cambia los números (+3 vs +24 vs +11 tokens), pero no la conclusión: la diferencia real de salida es pequeña frente a su variabilidad.
