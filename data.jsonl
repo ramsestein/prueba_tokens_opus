@@ -1,0 +1,175 @@
+{"orig_id": 1, "variante": 1, "pregunta": "¿Cuál es el número total de prescripciones registradas?"}
+{"orig_id": 1, "variante": 2, "pregunta": "¿Cuántas prescripciones en total se encuentran documentadas?"}
+{"orig_id": 1, "variante": 3, "pregunta": "¿Cuál es la cantidad total de prescripciones que hay registradas?"}
+{"orig_id": 1, "variante": 4, "pregunta": "¿Cuántos registros de prescripciones existen en total?"}
+{"orig_id": 1, "variante": 5, "pregunta": "¿Cuál es el total de prescripciones documentadas?"}
+{"orig_id": 2, "variante": 1, "pregunta": "¿Cuántos pacientes tienen prescripciones?"}
+{"orig_id": 2, "variante": 2, "pregunta": "¿Cuál es el número de pacientes con prescripciones activas?"}
+{"orig_id": 2, "variante": 3, "pregunta": "¿Cuántos pacientes cuentan con prescripciones registradas?"}
+{"orig_id": 2, "variante": 4, "pregunta": "¿A cuántos pacientes se les han asignado prescripciones?"}
+{"orig_id": 2, "variante": 5, "pregunta": "¿Cuántos pacientes presentan prescripciones en el sistema?"}
+{"orig_id": 3, "variante": 1, "pregunta": "¿Cuál es el número total de diagnósticos de anatomía patológica considerando todas las muestras?"}
+{"orig_id": 3, "variante": 2, "pregunta": "¿Cuántos diagnósticos patológicos se han registrado en total incluyendo cada una de las muestras?"}
+{"orig_id": 3, "variante": 3, "pregunta": "¿Cuál es la cantidad total de diagnósticos de patología, sumando todas las muestras analizadas?"}
+{"orig_id": 3, "variante": 4, "pregunta": "¿Cuántos diagnósticos anatomo-patológicos hay en conjunto, considerando la totalidad de las muestras?"}
+{"orig_id": 3, "variante": 5, "pregunta": "¿Cuál es el recuento total de diagnósticos de anatomía patológica de todas las muestras?"}
+{"orig_id": 4, "variante": 1, "pregunta": "¿Cuántos episodios diferentes presentan como mínimo un diagnóstico de Anatomía Patológica?"}
+{"orig_id": 4, "variante": 2, "pregunta": "¿Cuál es el número de episodios únicos que cuentan con al menos un diagnóstico procedente de Anatomía Patológica?"}
+{"orig_id": 4, "variante": 3, "pregunta": "¿Cuántos episodios distintos poseen uno o más diagnósticos de Anatomía Patológica?"}
+{"orig_id": 4, "variante": 4, "pregunta": "¿Cuántos episodios diferentes tienen como mínimo algún diagnóstico confirmado por Anatomía Patológica?"}
+{"orig_id": 4, "variante": 5, "pregunta": "¿Cuál es la cantidad de episodios distintos que incluyen al menos un diagnóstico de Anatomía Patológica?"}
+{"orig_id": 5, "variante": 1, "pregunta": "¿Podrías desglosar las prescripciones por ámbito de generación para visualizar cuántas corresponden a cada uno?"}
+{"orig_id": 5, "variante": 2, "pregunta": "¿Me muestras el número de prescripciones agrupadas por el ámbito en el que fueron generadas?"}
+{"orig_id": 5, "variante": 3, "pregunta": "¿Puedes segmentar las prescripciones según el ámbito donde se originaron y contar cuántas hay en cada ámbito?"}
+{"orig_id": 5, "variante": 4, "pregunta": "¿Me distributes las prescripciones por ámbito de origen para ver el conteo en cada uno?"}
+{"orig_id": 5, "variante": 5, "pregunta": "¿Podrías clasificar las prescripciones de acuerdo al ámbito donde fueron creadas y mostrar cuántas existen por ámbito?"}
+{"orig_id": 6, "variante": 1, "pregunta": "¿Cuál es el número total de pacientes diferentes que han estado en la UCI?"}
+{"orig_id": 6, "variante": 2, "pregunta": "¿Cuántos pacientes únicos han ingresado en la UCI?"}
+{"orig_id": 6, "variante": 3, "pregunta": "¿Cuántos pacientes distintos han sido atendidos en la UCI?"}
+{"orig_id": 6, "variante": 4, "pregunta": "¿Cuál es la cantidad de pacientes diferentes que han pasado por la UCI?"}
+{"orig_id": 6, "variante": 5, "pregunta": "¿Cuántos pacientes diferentes han sido hospitalizados en la UCI?"}
+{"orig_id": 7, "variante": 1, "pregunta": "¿Cuántas cirugías se iniciaron desde el 6 de agosto de 2024?"}
+{"orig_id": 7, "variante": 2, "pregunta": "¿Cuál es el número de cirugías comenzadas a partir del 6 de agosto de 2024?"}
+{"orig_id": 7, "variante": 3, "pregunta": "¿Desde el 6 de agosto de 2024, cuántas cirugías se han iniciado?"}
+{"orig_id": 7, "variante": 4, "pregunta": "¿Cuántas intervenciones quirúrgicas se han empezado desde el 6 de agosto de 2024?"}
+{"orig_id": 7, "variante": 5, "pregunta": "¿Cuál es la cantidad de cirugías que han comenzado desde el 6 de agosto de 2024?"}
+{"orig_id": 8, "variante": 1, "pregunta": "¿Cuántos pacientes han ingresado al quirófano para cirugía? Necesito este dato para la profilaxis"}
+{"orig_id": 8, "variante": 2, "pregunta": "¿Cuántas intervenciones quirúrgicas se han realizado en quirófano? Lo requiero para la profilaxis antibiótica"}
+{"orig_id": 8, "variante": 3, "pregunta": "¿Cuál es el número de cirugías que han accedido al quirófano? Es para la profilaxis"}
+{"orig_id": 8, "variante": 4, "pregunta": "¿Cuántos pacientes operados han entrado a quirófano? Preciso esta información para la profilaxis"}
+{"orig_id": 8, "variante": 5, "pregunta": "¿Cuántas cirugías se han llevado a cabo en quirófano hasta ahora? Lo necesito para la profilaxis"}
+{"orig_id": 9, "variante": 1, "pregunta": "¿Cuántos pacientes nacidos a partir de 1975 tenemos registrados?"}
+{"orig_id": 9, "variante": 2, "pregunta": "¿Cuál es el número de pacientes con fecha de nacimiento desde 1975 en adelante?"}
+{"orig_id": 9, "variante": 3, "pregunta": "¿Cuántos pctes nacieron en 1975 o posterior?"}
+{"orig_id": 9, "variante": 4, "pregunta": "¿Qué cantidad de pacientes tienen nacimiento desde el año 75 en adelante?"}
+{"orig_id": 9, "variante": 5, "pregunta": "¿Cuántos pacientes están registrados con año de nacimiento 1975 o más reciente?"}
+{"orig_id": 10, "variante": 1, "pregunta": "¿Cuántos pacientes nacidos a partir del 19/01/1975 tenemos?"}
+{"orig_id": 10, "variante": 2, "pregunta": "¿Cuál es el número de pacientes con fecha de nacimiento desde el 19/01/1975?"}
+{"orig_id": 10, "variante": 3, "pregunta": "¿Cuántos pacientes son posteriores al 19/01/1975 en su nacimiento?"}
+{"orig_id": 10, "variante": 4, "pregunta": "Necesito saber cuántos pctes tienen fecha de nacimiento igual o posterior a 19/01/1975"}
+{"orig_id": 10, "variante": 5, "pregunta": "¿Cuántos pacientes registrados nacieron desde el 19/01/1975 en adelante?"}
+{"orig_id": 11, "variante": 1, "pregunta": "¿Cuántos antibiogramas contienen vancomicina?"}
+{"orig_id": 11, "variante": 2, "pregunta": "¿Cuál es el número de antibiogramas que incluyen vancomicina?"}
+{"orig_id": 11, "variante": 3, "pregunta": "¿Cuántos antibiogramas se han realizado con vancomicina?"}
+{"orig_id": 11, "variante": 4, "pregunta": "¿Cuántos resultados de antibiograma tenemos con vancomicina reportada?"}
+{"orig_id": 11, "variante": 5, "pregunta": "¿Cuántos antibiogramas muestran sensibilidad a vancomicina?"}
+{"orig_id": 12, "variante": 1, "pregunta": "¿Cuál es la distribución por sexo de los pacientes nacidos desde el 19/01/1975?"}
+{"orig_id": 12, "variante": 2, "pregunta": "¿Cuántos pacientes de sexo masculino y femenino nacieron a partir del 19/01/1975?"}
+{"orig_id": 12, "variante": 3, "pregunta": "Dame el número de pacientes por sexo con fecha de nacimiento desde el 19/01/1975"}
+{"orig_id": 12, "variante": 4, "pregunta": "¿Cuántos pctes hay desde el 19/01/1975 desglosados por sexo?"}
+{"orig_id": 12, "variante": 5, "pregunta": "Necesito contar los pacientes nacidos desde el 19/01/1975 diferenciados por sexo"}
+{"orig_id": 13, "variante": 1, "pregunta": "¿Cuáles son los procedimientos realizados en hepatología, nefrología y gastroenterología desde finales de agosto de 2024? Requiero la clasificación por tipo."}
+{"orig_id": 13, "variante": 2, "pregunta": "Necesito conocer qué intervenciones se efectuaron en las especialidades de hepatología, gastroenterología y nefrología a partir de finales de agosto de 2024, desglosadas según su categoría."}
+{"orig_id": 13, "variante": 3, "pregunta": "¿Me puedes mostrar los procedimientos llevados a cabo desde finales de agosto de 2024 en nefrología, hepatología y gastroenterología, organizados por tipo?"}
+{"orig_id": 13, "variante": 4, "pregunta": "Quiero obtener un desglose por tipo de los procedimientos ejecutados en gastroenterología, hepatología y nefrología desde finales de agosto de 2024."}
+{"orig_id": 13, "variante": 5, "pregunta": "¿Qué tipo de procedimientos se han practicado desde finales de agosto de 2024 en las áreas de nefrología, gastroenterología y hepatología? Necesito el detalle clasificado."}
+{"orig_id": 14, "variante": 1, "pregunta": "requiero los antibiogramas que incluyen vancomicina"}
+{"orig_id": 14, "variante": 2, "pregunta": "dame los antibiogramas con vancomicina"}
+{"orig_id": 14, "variante": 3, "pregunta": "necesito consultar antibiogramas de vancomicina"}
+{"orig_id": 14, "variante": 4, "pregunta": "quiero ver los antibiogramas que contienen vancomicina"}
+{"orig_id": 14, "variante": 5, "pregunta": "búscame los antibiogramas donde aparece vancomicina"}
+{"orig_id": 15, "variante": 1, "pregunta": "¿Cuál es el número total de episodios que hemos clasificado en grupos relacionados por diagnóstico?"}
+{"orig_id": 15, "variante": 2, "pregunta": "¿Cuántos episodios se encuentran ya agrupados por diagnóstico en grupos relacionados?"}
+{"orig_id": 15, "variante": 3, "pregunta": "¿Cuántos episodios ya están categorizados en grupos relacionados según el diagnóstico?"}
+{"orig_id": 15, "variante": 4, "pregunta": "¿Cuál es la cantidad de episodios clasificados hasta ahora en grupos relacionados por diagnóstico?"}
+{"orig_id": 15, "variante": 5, "pregunta": "¿Cuántos episodios contamos que estén organizados en grupos relacionados conforme al diagnóstico?"}
+{"orig_id": 16, "variante": 1, "pregunta": "¿Cuál es el número total de pacientes únicos que tienen un DRG asignado?"}
+{"orig_id": 16, "variante": 2, "pregunta": "¿Cuántos pacientes diferentes cuentan con un DRG registrado?"}
+{"orig_id": 16, "variante": 3, "pregunta": "¿A cuántos pacientes distintos se les ha asignado un DRG?"}
+{"orig_id": 16, "variante": 4, "pregunta": "¿Cuál es la cantidad de pacientes con DRG asignado en nuestro sistema?"}
+{"orig_id": 16, "variante": 5, "pregunta": "¿De cuántos pacientes diferentes disponemos de un DRG asignado?"}
+{"orig_id": 17, "variante": 1, "pregunta": "¿Cuál es el peso máximo de los grupos relacionados con el diagnóstico?"}
+{"orig_id": 17, "variante": 2, "pregunta": "¿Cuál es el peso máximo que presentan los grupos asociados al diagnóstico?"}
+{"orig_id": 17, "variante": 3, "pregunta": "¿Cuál es el peso máximo de los grupos vinculados con el diagnóstico?"}
+{"orig_id": 17, "variante": 4, "pregunta": "¿Cuál es el peso máximo entre los grupos relacionados con el diagnóstico?"}
+{"orig_id": 17, "variante": 5, "pregunta": "¿Cuál es el peso máximo que tienen los grupos conectados con el diagnóstico?"}
+{"orig_id": 18, "variante": 1, "pregunta": "¿Cuál es el número total de pacientes únicos que han sido intervenidos quirúrgicamente por apendicitis?"}
+{"orig_id": 18, "variante": 2, "pregunta": "¿Cuántos pacientes diferentes han recibido tratamiento quirúrgico para la apendicitis?"}
+{"orig_id": 18, "variante": 3, "pregunta": "¿A cuántos pacientes distintos se les ha realizado cirugía por apendicitis?"}
+{"orig_id": 18, "variante": 4, "pregunta": "¿Cuál es la cantidad de pacientes diversos que han sido operados de apendicitis?"}
+{"orig_id": 18, "variante": 5, "pregunta": "¿En cuántos pacientes diferentes se ha llevado a cabo una intervención quirúrgica de apendicitis?"}
+{"orig_id": 19, "variante": 1, "pregunta": "¿Cuál es el valor más bajo de hemoglobina glicada que registramos desde finales de noviembre de 2023?"}
+{"orig_id": 19, "variante": 2, "pregunta": "¿Cuál ha sido la hemoglobina glicada mínima desde finales de noviembre de 2023?"}
+{"orig_id": 19, "variante": 3, "pregunta": "Desde finales de noviembre de 2023, ¿cuál es la hemoglobina glicada más baja que tenemos documentada?"}
+{"orig_id": 19, "variante": 4, "pregunta": "¿Cuál es el valor más bajo de HbA1c que tenemos registrado desde finales de noviembre de 2023?"}
+{"orig_id": 19, "variante": 5, "pregunta": "Desde finales de noviembre de 2023, ¿cuál ha sido el mínimo valor de hemoglobina glicada?"}
+{"orig_id": 20, "variante": 1, "pregunta": "¿Cuál es el número total de problemas de salud que se encuentran registrados?"}
+{"orig_id": 20, "variante": 2, "pregunta": "¿Cuántos problemas de salud se han documentado en total?"}
+{"orig_id": 20, "variante": 3, "pregunta": "¿Cuál es la cantidad total de problemas de salud registrados?"}
+{"orig_id": 20, "variante": 4, "pregunta": "¿En total, cuántos problemas de salud hay anotados en el registro?"}
+{"orig_id": 20, "variante": 5, "pregunta": "¿Cuántos problemas de salud están registrados en la base de datos?"}
+{"orig_id": 21, "variante": 1, "pregunta": "¿Cuál es el número total de apendicectomías realizadas?"}
+{"orig_id": 21, "variante": 2, "pregunta": "¿Cuántos procedimientos de apendicectomía se han llevado a cabo?"}
+{"orig_id": 21, "variante": 3, "pregunta": "¿De cuántas apendicectomías tenemos registro?"}
+{"orig_id": 21, "variante": 4, "pregunta": "¿Cuál ha sido el volumen de apendicectomías efectuadas?"}
+{"orig_id": 21, "variante": 5, "pregunta": "¿Qué cantidad de apendicectomías se han practicado?"}
+{"orig_id": 22, "variante": 1, "pregunta": "¿Cuántos episodios diferentes de pacientes con problemas de salud registrados existen?"}
+{"orig_id": 22, "variante": 2, "pregunta": "¿Cuál es el número total de episodios distintos de pacientes con problemas de salud que están registrados?"}
+{"orig_id": 22, "variante": 3, "pregunta": "¿Cuántos episodios registrados hay de pacientes que presentan problemas de salud?"}
+{"orig_id": 22, "variante": 4, "pregunta": "¿Qué cantidad de episodios diferentes se encuentran registrados en pacientes con problemas de salud?"}
+{"orig_id": 22, "variante": 5, "pregunta": "¿Cuántos episodios distintos registrados corresponden a pacientes con problemas de salud?"}
+{"orig_id": 23, "variante": 1, "pregunta": "¿Cuántas prescripciones tienen una dosis de 1,6 o menos?"}
+{"orig_id": 23, "variante": 2, "pregunta": "¿Cuál es el número de prescripciones con dosis ≤ 1,6?"}
+{"orig_id": 23, "variante": 3, "pregunta": "¿Cuántos medicamentos se han prescrito con dosis de 1,6 o inferior?"}
+{"orig_id": 23, "variante": 4, "pregunta": "Dime cuántas prescripciones hay que tengan dosis menor o igual a 1,6"}
+{"orig_id": 23, "variante": 5, "pregunta": "¿Qué cantidad de prescripciones presentan una dosis de 1,6 como máximo?"}
+{"orig_id": 24, "variante": 1, "pregunta": "¿Cuál es el número de cirugías realizadas desde finales de 2021 hasta noviembre del 2024?"}
+{"orig_id": 24, "variante": 2, "pregunta": "¿Cuántos procedimientos quirúrgicos se han llevado a cabo entre finales de 2021 y noviembre del 2024?"}
+{"orig_id": 24, "variante": 3, "pregunta": "¿Cuántas intervenciones quirúrgicas se ejecutaron desde finales de 2021 hasta noviembre del 2024?"}
+{"orig_id": 24, "variante": 4, "pregunta": "¿Qué cantidad de cirugías fueron efectuadas entre finales de 2021 y noviembre del 2024?"}
+{"orig_id": 24, "variante": 5, "pregunta": "¿Cuántos actos quirúrgicos se han realizado desde finales de 2021 hasta noviembre del 2024?"}
+{"orig_id": 25, "variante": 1, "pregunta": "¿Cuál es el número de pacientes únicos que han presentado al menos un episodio de estancia corta?"}
+{"orig_id": 25, "variante": 2, "pregunta": "¿Cuántos pacientes diferentes han experimentado algún evento de estancia corta?"}
+{"orig_id": 25, "variante": 3, "pregunta": "¿Cuál es la cantidad de pacientes distintos con algún registro de estancia corta?"}
+{"orig_id": 25, "variante": 4, "pregunta": "¿Cuántos pacientes han tenido por lo menos un episodio catalogado como estancia corta?"}
+{"orig_id": 25, "variante": 5, "pregunta": "¿Cuál es el total de pacientes diferentes que han registrado alguna estancia corta?"}
+{"orig_id": 26, "variante": 1, "pregunta": "¿Cuál es el número de prescripciones con dosis de 1,6 o menos, distribuidas según la pauta de administración?"}
+{"orig_id": 26, "variante": 2, "pregunta": "Necesito conocer las prescripciones cuya dosis sea 1,6 o inferior, clasificadas por pauta de administración"}
+{"orig_id": 26, "variante": 3, "pregunta": "¿Cuántas prescripciones tienen dosis ≤ 1,6, con desglose por cada pauta de administración?"}
+{"orig_id": 26, "variante": 4, "pregunta": "Quiero ver el total de prescripciones con dosis de 1,6 o menos, agrupadas por pauta de administración"}
+{"orig_id": 26, "variante": 5, "pregunta": "¿Cuántas prescripciones hay con dosis menor o igual a 1,6, separadas por pauta de administración?"}
+{"orig_id": 27, "variante": 1, "pregunta": "¿Cuál es la dosis mínima prescrita en pacientes con dosis bajas?"}
+{"orig_id": 27, "variante": 2, "pregunta": "¿Qué dosis mínima se pauta a los pacientes en régimen de dosis bajas?"}
+{"orig_id": 27, "variante": 3, "pregunta": "¿Cuál es la dosis más baja pautada a pacientes?"}
+{"orig_id": 27, "variante": 4, "pregunta": "¿Qué dosis mínima reciben los pacientes con pauta de dosis bajas?"}
+{"orig_id": 27, "variante": 5, "pregunta": "¿Cuál es la dosis mínima indicada a pctes. con dosis bajas?"}
+{"orig_id": 28, "variante": 1, "pregunta": "¿Cuántos pacientes tienen prescrito algo con una dosis de 1.6 o menos?"}
+{"orig_id": 28, "variante": 2, "pregunta": "¿Cuál es el número de pctes que tienen pautado algo con dosis ≤ 1.6?"}
+{"orig_id": 28, "variante": 3, "pregunta": "¿Cuántos pacientes tienen algo indicado con dosis de 1.6 o inferior?"}
+{"orig_id": 28, "variante": 4, "pregunta": "¿Qué cantidad de pctes tienen algo ordenado con dosis ≤ 1.6?"}
+{"orig_id": 28, "variante": 5, "pregunta": "¿Cuántos pacientes tienen pautado algún fármaco con dosis de 1.6 o menos?"}
+{"orig_id": 29, "variante": 1, "pregunta": "¿Cuál fue el número de episodios de urgencias registrados entre finales de abril del 2022 y mediados de enero del 2024?"}
+{"orig_id": 29, "variante": 2, "pregunta": "¿Cuántos pacientes acudieron a urgencias desde finales de abril del 2022 hasta mediados de enero del 2024?"}
+{"orig_id": 29, "variante": 3, "pregunta": "¿Qué cantidad de atenciones en urgencias se produjeron entre finales de abril del 2022 y mediados de enero del 2024?"}
+{"orig_id": 29, "variante": 4, "pregunta": "Entre finales de abril del 2022 y mediados de enero del 2024, ¿cuántos episodios hubo en el servicio de urgencias?"}
+{"orig_id": 29, "variante": 5, "pregunta": "¿Cuántos episodios de urgencias se registraron en el período comprendido entre finales de abril del 2022 y mediados de enero del 2024?"}
+{"orig_id": 30, "variante": 1, "pregunta": "¿Cuál es el número total de muestras de anatomía patológica?"}
+{"orig_id": 30, "variante": 2, "pregunta": "¿Cuántas muestras en total se encuentran en anatomía patológica?"}
+{"orig_id": 30, "variante": 3, "pregunta": "¿Cuál es la cantidad total de muestras de anatomía patológica?"}
+{"orig_id": 30, "variante": 4, "pregunta": "¿Cuántas muestras de anatomía patológica hay en conjunto?"}
+{"orig_id": 30, "variante": 5, "pregunta": "¿Cuál es el total de muestras de anatomía patológica disponibles?"}
+{"orig_id": 31, "variante": 1, "pregunta": "¿Cuál es el número de profesionales diferentes que han validado muestras de Anatomía Patológica?"}
+{"orig_id": 31, "variante": 2, "pregunta": "¿Cuántos profesionales únicos han realizado validaciones en muestras de Anatomía Patológica?"}
+{"orig_id": 31, "variante": 3, "pregunta": "¿Qué cantidad de profesionales distintos han validado especímenes de Anatomía Patológica?"}
+{"orig_id": 31, "variante": 4, "pregunta": "¿Cuántos profesionales han validado muestras de Anatomía Patológica en total?"}
+{"orig_id": 31, "variante": 5, "pregunta": "¿A cuántos profesionales diferentes se atribuyen validaciones de muestras de Anatomía Patológica?"}
+{"orig_id": 32, "variante": 1, "pregunta": "¿Cuál es el número total de pruebas de Covid-19 realizadas en el departamento de microbiología?"}
+{"orig_id": 32, "variante": 2, "pregunta": "¿Cuántas pruebas totales para la detección de Covid-19 se han efectuado en microbiología?"}
+{"orig_id": 32, "variante": 3, "pregunta": "¿Qué cantidad de tests de Covid-19 se han hecho en total en el laboratorio de microbiología?"}
+{"orig_id": 32, "variante": 4, "pregunta": "¿Cuántos análisis de detección de Covid-19 se han realizado en microbiología hasta ahora?"}
+{"orig_id": 32, "variante": 5, "pregunta": "¿Cuál ha sido el número total de pruebas diagnósticas de Covid-19 llevadas a cabo en microbiología?"}
+{"orig_id": 33, "variante": 1, "pregunta": "¿Cuál es el número de pacientes únicos a los que se les realizó detección de Covid-19 en microbiología?"}
+{"orig_id": 33, "variante": 2, "pregunta": "¿En cuántos pacientes diferentes se llevó a cabo la prueba de detección de Covid-19 desde el servicio de microbiología?"}
+{"orig_id": 33, "variante": 3, "pregunta": "¿Cuántos pacientes distintos fueron sometidos a detección de Covid-19 en el laboratorio de microbiología?"}
+{"orig_id": 33, "variante": 4, "pregunta": "¿A qué cantidad de pacientes se les practicó la detección de Covid-19 en microbiología?"}
+{"orig_id": 33, "variante": 5, "pregunta": "¿Cuántos pacientes individuales tienen registrada una detección de Covid-19 en microbiología?"}
+{"orig_id": 34, "variante": 1, "pregunta": "¿Cuál es el número de episodios diferentes con etiqueta registrados desde finales de enero del 23 hasta principios de junio del 25?"}
+{"orig_id": 34, "variante": 2, "pregunta": "¿Cuántos episodios únicos cuentan con etiqueta en el período comprendido entre finales de enero de 2023 y principios de junio de 2025?"}
+{"orig_id": 34, "variante": 3, "pregunta": "¿Cuántos episodios distintos etiquetados existen entre finales de enero del 23 y principios de junio del 25?"}
+{"orig_id": 34, "variante": 4, "pregunta": "¿Cuántos episodios diferentes tienen asignada una etiqueta en el rango de finales de enero de 2023 a principios de junio de 2025?"}
+{"orig_id": 34, "variante": 5, "pregunta": "¿Cuál es la cantidad de episodios sin repetir que poseen etiqueta desde finales de enero del 23 hasta principios de junio del 25?"}
+{"orig_id": 35, "variante": 1, "pregunta": "¿Cuál es el número total de movimientos registrados en Neurología?"}
+{"orig_id": 35, "variante": 2, "pregunta": "¿Cuántos movimientos se han contabilizado en el servicio de Neurología?"}
+{"orig_id": 35, "variante": 3, "pregunta": "¿Qué cantidad de movimientos ha experimentado Neurología?"}
+{"orig_id": 35, "variante": 4, "pregunta": "¿A cuántos movimientos asciende el total en Neurología?"}
+{"orig_id": 35, "variante": 5, "pregunta": "¿Cuántos movimientos se han generado en Neurología?"}
